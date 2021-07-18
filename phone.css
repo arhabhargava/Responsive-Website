@@ -1,0 +1,86 @@
+/* Navigation */
+.navbar{
+    flex-direction: column;
+
+}
+.logo img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.navbar ul li {
+    font-size: 1rem;
+    padding: 0.2rem;
+}
+/* Home  */
+.home{
+    height: 300px;
+}
+.home h1{
+    font-size: 2rem;
+}
+.home p{
+    font-size: 0.8rem;
+}
+
+.subscribe{
+    font-size: 0.8rem;
+}
+
+/* Services */
+.services-container h1 {
+	font-size: 2rem;
+}
+#services{
+    flex-direction: column;
+}
+
+#services .box {
+	
+	align-items: center;
+	margin: 0.5rem 1rem;
+
+}
+#services .box img {
+	height: 12rem;
+	width: 9rem;
+	padding: 1rem;
+}
+#services .box h2 {
+	font-family: "Dancing Script", BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	color: #034c53;
+}
+
+#services .box p {
+	font-family: "Amatic SC", "Times New Roman", Times, serif;
+	font-weight: bold;
+	text-align: center;
+	padding: 0rem 1rem 1rem 1rem;
+	color: #007074;
+}
+
+/* Clients  */
+#clients{
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+.client-item {
+	padding: 0.8rem 1rem;
+}
+.client-item img {
+	margin: 0rem;
+	height: 9rem;
+	width: 6rem;
+}
+
+/* Contact Us  */
+.contact form{
+	width: 60%;
+	
+}
+.contact-box input, 
+.contact-box textarea {
+	font-size: 0.8rem;
+}
+
